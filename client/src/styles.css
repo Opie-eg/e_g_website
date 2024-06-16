@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./fonts/Quicksand-Bold.ttf') format('truetype'),
+       url('./fonts/Quicksand-SemiBold.ttf') format('truetype');
+  /* Add more src formats if necessary */
+}
+
+body, html {
+  font-family: 'CustomFont', sans-serif !important; 
+  height: 100%;
+  margin: 0;
+}
+
+.dark-mode {
+  min-height: 100vh; /* Make sure it covers the entire viewport height */
+  background-color: #343a40 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar {
+  background-color: #343a40 !important;
+  border-bottom: 2px solid #ffffff;
+}
+
+.dark-mode .navbar-dark .navbar-brand {
+  color: #ffffff !important;
+  
+  
+}
+
+.dark-mode .navbar-brand img {
+  margin-right: 10px;
+}
+
+.custom-heading {
+  font-family: 'CustomFont', sans-serif !important; 
+  color: #ffffff !important;
+}
+
+.custom-paragraph {
+  font-family: 'CustomFont', sans-serif !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .btn-primary {
+  background-color: #907fff !important;
+  border-color: #907fff !important;
+}
