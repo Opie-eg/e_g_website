@@ -11,16 +11,28 @@ body, html {
   margin: 0;
 }
 
-.dark-mode {
+.div{
   min-height: 100vh; /* Make sure it covers the entire viewport height */
-  background-color: #343a40 !important;
-  color: #ffffff !important;
 }
 
-.dark-mode .navbar {
+.move-left {
+  position:relative;
+  left: 15px
+}
+
+.dark-mode {
+  background-color: #343a40 !important;
+}
+.dark-mode .container{
+  color: #ffffff !important;
+}
+.dark-mode .navbar  {
   background-color: #343a40 !important;
   border-bottom: 2px solid #ffffff;
 }
+
+
+
 
 .dark-mode .navbar-dark .navbar-brand {
   color: #ffffff !important;
@@ -42,7 +54,29 @@ body, html {
   color: #ffffff !important;
 }
 
-.dark-mode .btn-primary {
+.dark-mode .btn-primary  {
   background-color: #907fff !important;
   border-color: #907fff !important;
+}
+
+.dark-mode .bg-primary {
+  background-color: #907fff !important;
+}
+.spec-icons{
+  border-radius: 50%; /*Ensure the element remains circular */
+  
+}
+.wow-dk{
+  color: #C41E3A !important;;
+}
+.wow-mage{
+  color: #3FC7EB !important;;
+}
+.wow-hunter{
+  color: #AAD372 !important;;
+}
+
+
+.no-tier{
+  color: #ffffff; /*change this to rarity*/
 }
