@@ -7,4 +7,5 @@ migrations/__pycache__/env.cpython-312.pyc
 migrations/versions/__pycache__/1ceeed9b9796_add_new_column_to_guildmember.cpython-312.pyc
 backend/models/__pycache__/guild.cpython-312.pyc
 backend/routes/__pycache__/guild_route.cpython-312.pyc
+venv
 venv/
