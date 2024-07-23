@@ -66,15 +66,47 @@ body, html {
   border-radius: 50%; /*Ensure the element remains circular */
   
 }
-.wow-dk{
+
+.wow-DeathKnight{
   color: #C41E3A !important;;
 }
-.wow-mage{
-  color: #3FC7EB !important;;
+.wow-DemonHunter{
+  color: #A330C9 !important;;
 }
-.wow-hunter{
+.wow-Druid{
+  color: #FF7C0A !important;;
+}
+.wow-Evoker{
+  color: #33937F !important;;
+}
+.wow-Hunter{
   color: #AAD372 !important;;
 }
+.wow-Mage{
+  color: #3FC7EB !important;;
+}
+.wow-Monk{
+  color: #00FF98 !important;;
+}
+.wow-Paladin{
+  color: #F48CBA !important;;
+}
+.wow-Priest{
+  color: #FFFFFF !important;;
+}
+.wow-Rogue{
+  color: #FFF468 !important;;
+}
+.wow-Shaman{
+  color: #0070DD !important;;
+}
+.wow-Warlock{
+  color: #8788EE !important;;
+}
+.wow-Warrior{
+  color: #C69B6D !important;;
+}
+
 
 
 .no-tier{

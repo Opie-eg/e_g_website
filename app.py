@@ -1,4 +1,5 @@
 from flask import Flask , render_template
+from flask_cors import CORS
 from flask_migrate import Migrate
 from backend.db import db
 from backend.models.guild import GuildMember
@@ -8,7 +9,7 @@ from backend.routes.guild_route import guild_bp
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///guild.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
+CORS(app)
 migrate = Migrate(app, db)
 db.init_app(app)
 
