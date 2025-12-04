@@ -22,7 +22,7 @@ app.register_blueprint(guild_bp)
 
 @app.route('/')
 def hello():
-    return 'Welcome to the EG!'
+    return 'Welcome to EG!'
 
 
 if __name__ == '__main__':
